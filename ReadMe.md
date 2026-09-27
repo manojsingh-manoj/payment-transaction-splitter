@@ -13,6 +13,10 @@ A high-performance, modular monolith application designed to ingest large ISO 20
 - **Messaging:** Apache Kafka (KRaft mode)
 - **Build Tool:** Apache Maven
 
+## Architecture
+
+![Architecture Diagram](docs/images/architecture.png)
+
 ### Modular Boundaries & Package Structure
 
 ```text
