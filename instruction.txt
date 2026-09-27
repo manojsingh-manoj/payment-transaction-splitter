@@ -1,0 +1,34 @@
+1. Prerequisites
+Java Development Kit (JDK): Version 21 or higher
+
+Container Runtime: Docker Desktop or Docker Engine with Docker Compose
+
+2. Infrastructure Setup
+Start the local PostgreSQL and Kafka (KRaft mode) containers:
+docker compose up -d
+
+Verify that both containers are up and running healthily:
+docker compose ps
+
+3. Build & Run Application
+You can launch the application using the Maven wrapper:
+
+---
+Start the Application:
+./mvn spring-boot:run
+
+Trigger File Ingestion via curl:
+Execute the endpoint to process the sample XML file:
+curl -X POST "http://localhost:8080/api/v1/ingestion/process?fileName=sample-pacs009-batch.xml"
+
+
+Verify Output XML Files:
+ls -la data/output/
+docker exec -it payment-kafka /opt/kafka/bin/kafka-console-consumer.sh \
+  --bootstrap-server localhost:9092 \
+  --topic payment.transaction.metadata \
+  --from-beginning
+
+Verify PostgreSQL Persistent Events:
+Inspect the Spring Modulith event publication table inside the PostgreSQL container:
+ docker exec -it payment-postgres psql -U postgres -d payment_db -c "SELECT id, event_type, publication_date, completion_date FROM event_publication;"
