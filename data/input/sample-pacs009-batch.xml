@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08">
+    <FICdtTrf>
+        <GrpHdr>
+            <MsgId>MSG202609277710294</MsgId>
+            <CreDtTm>2026-09-27T11:31:00Z</CreDtTm>
+            <NbOfTxs>30</NbOfTxs>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+                <ClrSys>
+                    <Prtry>FEDWIRE</Prtry>
+                </ClrSys>
+            </SttlmInf>
+        </GrpHdr>
+        
+        <!-- Transaction 1 -->
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstructionId>INS20260927-000001</InstructionId>
+                <EndToEndId>E2E-2026-001</EndToEndId>
+                <TxId>TXN20260927-001</TxId>
+                <UETR>a1f912e8-b809-4d6f-ae91-b3b890a552f1</UETR>
+            </PmtId>
+            <PmtTpInf>
+                <SvcLvl><Cd>SDVA</Cd></SvcLvl>
+                <LclInstrm><Cd>CORE</Cd></LclInstrm>
+                <CtgyPurp><Cd>TREA</Cd></CtgyPurp>
+            </PmtTpInf>
+            <IntrBkSttlmAmt Ccy="USD">1000000.00</IntrBkSttlmAmt>
+            <IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt>
+            <ChrgBr>SHAR</ChrgBr>
+            <Dbtr>
+                <FinInstnId>
+                    <BICFI>SENDERUS33NY1</BICFI>
+                    <Nm>Global Treasury Clearing Bank Corp</Nm>
+                </FinInstnId>
+            </Dbtr>
+            <Cdtr>
+                <FinInstnId>
+                    <BICFI>FINALUS44XXX</BICFI>
+                    <Nm>National Treasury Settlement Corp</Nm>
+                </FinInstnId>
+            </Cdtr>
+        </CdtTrfTxInf>
+
+        <!-- Transaction 2 -->
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstructionId>INS20260927-000002</InstructionId>
+                <EndToEndId>E2E-2026-002</EndToEndId>
+                <TxId>TXN20260927-002</TxId>
+                <UETR>a2f912e8-b809-4d6f-ae91-b3b890a552f2</UETR>
+            </PmtId>
+            <PmtTpInf>
+                <SvcLvl><Cd>SDVA</Cd></SvcLvl>
+                <LclInstrm><Cd>CORE</Cd></LclInstrm>
+                <CtgyPurp><Cd>TREA</Cd></CtgyPurp>
+            </PmtTpInf>
+            <IntrBkSttlmAmt Ccy="USD">2500000.00</IntrBkSttlmAmt>
+            <IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt>
+            <ChrgBr>SHAR</ChrgBr>
+            <Dbtr>
+                <FinInstnId>
+                    <BICFI>SENDERUS33NY1</BICFI>
+                    <Nm>Global Treasury Clearing Bank Corp</Nm>
+                </FinInstnId>
+            </Dbtr>
+            <Cdtr>
+                <FinInstnId>
+                    <BICFI>FINALUS44XXX</BICFI>
+                    <Nm>National Treasury Settlement Corp</Nm>
+                </FinInstnId>
+            </Cdtr>
+        </CdtTrfTxInf>
+
+        <!-- Transaction 3 -->
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstructionId>INS20260927-000003</InstructionId>
+                <EndToEndId>E2E-2026-003</EndToEndId>
+                <TxId>TXN20260927-003</TxId>
+                <UETR>a3f912e8-b809-4d6f-ae91-b3b890a552f3</UETR>
+            </PmtId>
+            <PmtTpInf>
+                <SvcLvl><Cd>SDVA</Cd></SvcLvl>
+                <LclInstrm><Cd>CORE</Cd></LclInstrm>
+                <CtgyPurp><Cd>TREA</Cd></CtgyPurp>
+            </PmtTpInf>
+            <IntrBkSttlmAmt Ccy="USD">750000.00</IntrBkSttlmAmt>
+            <IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt>
+            <ChrgBr>SHAR</ChrgBr>
+            <Dbtr>
+                <FinInstnId>
+                    <BICFI>SENDERUS33NY1</BICFI>
+                    <Nm>Global Treasury Clearing Bank Corp</Nm>
+                </FinInstnId>
+            </Dbtr>
+            <Cdtr>
+                <FinInstnId>
+                    <BICFI>FINALUS44XXX</BICFI>
+                    <Nm>National Treasury Settlement Corp</Nm>
+                </FinInstnId>
+            </Cdtr>
+        </CdtTrfTxInf>
+
+        <!-- Transactions 4 to 30 -->
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstructionId>INS20260927-000004</InstructionId>
+                <EndToEndId>E2E-2026-004</EndToEndId>
+                <TxId>TXN20260927-004</TxId>
+                <UETR>a4f912e8-b809-4d6f-ae91-b3b890a552f4</UETR>
+            </PmtId>
+            <PmtTpInf><SvcLvl><Cd>SDVA</Cd></SvcLvl></PmtTpInf>
+            <IntrBkSttlmAmt Ccy="USD">500000.00</IntrBkSttlmAmt>
+            <IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt>
+            <ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr>
+            <Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstructionId>INS20260927-000005</InstructionId>
+                <EndToEndId>E2E-2026-005</EndToEndId>
+                <TxId>TXN20260927-005</TxId>
+                <UETR>a5f912e8-b809-4d6f-ae91-b3b890a552f5</UETR>
+            </PmtId>
+            <PmtTpInf><SvcLvl><Cd>SDVA</Cd></SvcLvl></PmtTpInf>
+            <IntrBkSttlmAmt Ccy="USD">1200000.00</IntrBkSttlmAmt>
+            <IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt>
+            <ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr>
+            <Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000006</InstructionId><EndToEndId>E2E-2026-006</EndToEndId><TxId>TXN20260927-006</TxId><UETR>a6f912e8-b809-4d6f-ae91-b3b890a552f6</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">3000000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000007</InstructionId><EndToEndId>E2E-2026-007</EndToEndId><TxId>TXN20260927-007</TxId><UETR>a7f912e8-b809-4d6f-ae91-b3b890a552f7</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">450000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000008</InstructionId><EndToEndId>E2E-2026-008</EndToEndId><TxId>TXN20260927-008</TxId><UETR>a8f912e8-b809-4d6f-ae91-b3b890a552f8</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">890000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000009</InstructionId><EndToEndId>E2E-2026-009</EndToEndId><TxId>TXN20260927-009</TxId><UETR>a9f912e8-b809-4d6f-ae91-b3b890a552f9</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">620000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000010</InstructionId><EndToEndId>E2E-2026-010</EndToEndId><TxId>TXN20260927-010</TxId><UETR>b0f912e8-b809-4d6f-ae91-b3b890a55210</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">1500000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000011</InstructionId><EndToEndId>E2E-2026-011</EndToEndId><TxId>TXN20260927-011</TxId><UETR>b1f912e8-b809-4d6f-ae91-b3b890a55211</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">2100000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000012</InstructionId><EndToEndId>E2E-2026-012</EndToEndId><TxId>TXN20260927-012</TxId><UETR>b2f912e8-b809-4d6f-ae91-b3b890a55212</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">980000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000013</InstructionId><EndToEndId>E2E-2026-013</EndToEndId><TxId>TXN20260927-013</TxId><UETR>b3f912e8-b809-4d6f-ae91-b3b890a55213</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">1750000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000014</InstructionId><EndToEndId>E2E-2026-014</EndToEndId><TxId>TXN20260927-014</TxId><UETR>b4f912e8-b809-4d6f-ae91-b3b890a55214</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">320000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000015</InstructionId><EndToEndId>E2E-2026-015</EndToEndId><TxId>TXN20260927-015</TxId><UETR>b5f912e8-b809-4d6f-ae91-b3b890a55215</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">4100000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000016</InstructionId><EndToEndId>E2E-2026-016</EndToEndId><TxId>TXN20260927-016</TxId><UETR>b6f912e8-b809-4d6f-ae91-b3b890a55216</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">850000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000017</InstructionId><EndToEndId>E2E-2026-017</EndToEndId><TxId>TXN20260927-017</TxId><UETR>b7f912e8-b809-4d6f-ae91-b3b890a55217</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">1900000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000018</InstructionId><EndToEndId>E2E-2026-018</EndToEndId><TxId>TXN20260927-018</TxId><UETR>b8f912e8-b809-4d6f-ae91-b3b890a55218</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">2300000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000019</InstructionId><EndToEndId>E2E-2026-019</EndToEndId><TxId>TXN20260927-019</TxId><UETR>b9f912e8-b809-4d6f-ae91-b3b890a55219</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">670000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000020</InstructionId><EndToEndId>E2E-2026-020</EndToEndId><TxId>TXN20260927-020</TxId><UETR>c0f912e8-b809-4d6f-ae91-b3b890a55220</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">1150000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000021</InstructionId><EndToEndId>E2E-2026-021</EndToEndId><TxId>TXN20260927-021</TxId><UETR>c1f912e8-b809-4d6f-ae91-b3b890a55221</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">540000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000022</InstructionId><EndToEndId>E2E-2026-022</EndToEndId><TxId>TXN20260927-022</TxId><UETR>c2f912e8-b809-4d6f-ae91-b3b890a55222</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">2800000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000023</InstructionId><EndToEndId>E2E-2026-023</EndToEndId><TxId>TXN20260927-023</TxId><UETR>c3f912e8-b809-4d6f-ae91-b3b890a55223</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">1600000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000024</InstructionId><EndToEndId>E2E-2026-024</EndToEndId><TxId>TXN20260927-024</TxId><UETR>c4f912e8-b809-4d6f-ae91-b3b890a55224</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">730000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000025</InstructionId><EndToEndId>E2E-2026-025</EndToEndId><TxId>TXN20260927-025</TxId><UETR>c5f912e8-b809-4d6f-ae91-b3b890a55225</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">3400000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000026</InstructionId><EndToEndId>E2E-2026-026</EndToEndId><TxId>TXN20260927-026</TxId><UETR>c6f912e8-b809-4d6f-ae91-b3b890a55226</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">1450000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000027</InstructionId><EndToEndId>E2E-2026-027</EndToEndId><TxId>TXN20260927-027</TxId><UETR>c7f912e8-b809-4d6f-ae91-b3b890a55227</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">890000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000028</InstructionId><EndToEndId>E2E-2026-028</EndToEndId><TxId>TXN20260927-028</TxId><UETR>c8f912e8-b809-4d6f-ae91-b3b890a55228</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">2150000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000029</InstructionId><EndToEndId>E2E-2026-029</EndToEndId><TxId>TXN20260927-029</TxId><UETR>c9f912e8-b809-4d6f-ae91-b3b890a55229</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">610000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId><InstructionId>INS20260927-000030</InstructionId><EndToEndId>E2E-2026-030</EndToEndId><TxId>TXN20260927-030</TxId><UETR>d0f912e8-b809-4d6f-ae91-b3b890a55230</UETR></PmtId>
+            <IntrBkSttlmAmt Ccy="USD">5000000.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-09-27</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr>
+            <Dbtr><FinInstnId><BICFI>SENDERUS33NY1</BICFI></FinInstnId></Dbtr><Cdtr><FinInstnId><BICFI>FINALUS44XXX</BICFI></FinInstnId></Cdtr>
+        </CdtTrfTxInf>
+    </FICdtTrf>
+</Document>
